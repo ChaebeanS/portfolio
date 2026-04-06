@@ -75,7 +75,8 @@ function Home() {
         <section className='packages ani'>
           <div className='width'>
             <p className='title'>Package Design</p>
-            <p>제품이 사용자에게 닿는 첫 순간, 손끝에 닿는 종이의 질감과 패키지를 여는 손길까지.<br />제품의 본질을 돋보이게 하는 감각적인 그래픽과 탄탄한 디테일을 더해, 소유하는 즐거움 그 이상의 가치를 디자인에 담아냅니다 </p>
+            <p>제품이 사용자에게 닿는 첫 순간, 손끝에 닿는 종이의 질감과 패키지를 여는 손길까지.</p>
+            <p>제품의 본질을 돋보이게 하는 감각적인 그래픽과 탄탄한 디테일을 더해, 소유하는 즐거움 그 이상의 가치를 디자인에 담아냅니다 </p>
             <Link className='more' to="/package">More</Link>
           </div>
           <div className="banner-container" >
@@ -89,8 +90,12 @@ function Home() {
                 disableOnInteraction: false,
               }}
               breakpoints={{
+                320: {
+                  slidesPerView: 1.2,
+                  spaceBetween: 15,
+                },
                 640: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                   spaceBetween: 20,
                 },
                 770: {
@@ -117,7 +122,7 @@ function Home() {
         <section className='webs ani'>
           <div className='text'>
             <p className='title'>Web<br /> Design</p>
-            <p>패키지의 무드를 온라인으로 확장하여 브랜드의 일관성을 유지하고 최적화된 정보를 전달합니다 </p>
+            <p className='magin'>패키지의 무드를 온라인으로 확장하여 브랜드의 일관성을 유지하고 최적화된 정보를 전달합니다 </p>
             <Link className='more' to="/web">More</Link>
           </div>
           <div className='p-bg'>

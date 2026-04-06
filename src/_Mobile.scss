@@ -2,35 +2,76 @@
 
 .App {
     .header{
-        left: 85vw; bottom: 5vw;
+        left: 80vw; bottom: 5vw;
         .menu{
-            width: 90px;
+            width: 55px;
             .nav{
-                left: -20px; 
-                font-size: 1.3em;
-                li{ margin-bottom: 1.5vw; } 
+                left: -25px; bottom: 50px;
+                font-size: 0.8em;
+                li{ margin-bottom: 1vw; } 
             } 
         }
     } // header    
 
     .home{
+        .title{
+            font-size: 2em;
+            font-weight: 630;
+            line-height: 1; 
+            text-transform: uppercase;
+            margin-bottom: 3vw;
+        } 
+
         .intros{ font-size: 10vw; } 
         .summarys{
             width: 90vw; 
+            flex-direction: column;
             .left{
-                width: 45%; height: 60vw;
+                width: 100%; height: 40vw;
                 img{ height: 100%; }
             }
-            .right{ width: 50%; }
+            .right{ 
+                width: 100%; 
+                margin-top: 3vw;
+                .img{
+                    display: flex;
+                    gap: 3vw;
+                    img{width: 100%; height: 30vw;}
+                }
+                .text{width: 100%;}
+            }
         } 
-        .packages{ padding: 130px 0; } 
+        .packages{ 
+            padding: 130px 0; 
+            p:nth-last-of-type(1){display: none;}
+        } 
         .webs{
             width: 90vw;
-            margin: 20% auto 200px;
-            .p-bg{ width: 55%; }
+            margin: 20% auto 10vw;
+            flex-direction: column;
+            .text{ 
+                width: 100%; 
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                .magin{margin-top: 50vh;}
+            }
+            .p-bg{ 
+                position: absolute;
+                width: 80vw; 
+                left: 50%;   
+                transform: translateX(-50%);
+                margin: 25vh auto 0;
+                .phone{
+                    border-radius: 35px 35px 0 0;
+                    border: 7px solid;
+                    border-bottom: none;
+                }
+            }
         }
         .designs{
             width: 90vw;
+            margin-top: 0 !important;
             div a{ font-size: 4vw;  width: 23%; }
         }
     } // home
@@ -50,7 +91,9 @@
             flex-direction: column;
             .card{
                 width: 100%;
+                font-size: 0.8em;
                 .info .link a{ margin-top: 6px; }
+                .tool{display: none;}
             }
         }
     }
@@ -62,25 +105,52 @@
 
 
 // 포폴 타이틀/위치
-.con-title .title{ font-size: 2.5em; }
+.con-title{
+    margin: 7vw 0;
+    p{ font-size: 1em; }
+    .title{ font-size: 1.5em; }
+} 
 .contents{
     .detail{
-        .top{ font-size: 0.8em; }
-        .bottom{
-            font-size: 0.8em;
-            div:nth-child(2){ display: none; }
+        overflow: hidden;
+        img{
+            position: absolute;
+            width: 130%;
+            height: 100%;
+            right: -3vw;
+            top: 0;
+            border-radius: 0;
         }
+
+        .text{display: none;}
     } 
-    .web .top{ display: block; p{display: none;} }
+    .web{
+        img{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 0;
+        }        
+        .top{ display: block; p{display: none;} }
+    } 
 }
 
 .package, .web, .etc{ width: 85vw; }
 
 // mason
 .grid{width: 100% !important; margin: 0 !important; padding: 0;}
-.grid-sizer{ width: 30%; }
-.grid-item { width: 30%; }
-.grid-item.big { width: calc(97%); }
+.grid-sizer{ width: calc((100% - 40px) / 3);}
+.grid-item {
+    padding-left: 2px;
+    width: calc((100% - 40px) / 3);
+
+    &.active{
+        border-radius: 10px;
+        padding: 2px;
+    }
+}
+.grid-item.big { width: 100%; }
 
 
 
