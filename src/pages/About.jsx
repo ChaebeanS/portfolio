@@ -9,7 +9,7 @@ function About() {
       <div className='me'>
           <div className='con-title'>
             <p className='title'>About me</p>
-            <p>브랜드의 실물감과 디지털의 경험을 연결하는 디자이너</p>
+            <p>패키지의 질감을 닮은 밀도 높은 시각적 스토리텔링</p>
           </div>
           <div className='content'>
             <div className='icon'></div>
