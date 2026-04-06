@@ -30,8 +30,8 @@ function About() {
                             <p>Ps</p><p>Ai</p><p>Id</p>
                         </div>
                         <p><span>SUB</span><br />
-                        Design & Devㅣ Premiere / Dimension / Figma / VScode<br /> 
-                        Etcㅣ PowerPoint / Excel / Word / Notion
+                        Design & Devㅣ<span className='br'> Premiere / Dimension / Figma / VScode</span><br /> 
+                        Etcㅣ <span className='br'>PowerPoint / Excel / Word / Notion</span>
                         </p>
                     </div> {/* tool */}
                 </div> {/* skill */}

@@ -80,9 +80,13 @@
     .about .me{ 
         width: 85vw;
         .content{
-            width: 85vw;
+            width: 100%;
             .icon{ display: none; }
-            .con{ width: 100%; }
+            .con{ 
+                width: 100%;
+                .skill{padding: 20px 0;}
+                .tools .br{display: block; margin-bottom: -20px;}
+            }
         }
     }
 
