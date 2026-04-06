@@ -1,0 +1,87 @@
+@media (max-width:768px) {
+
+.App {
+    .header{
+        left: 85vw; bottom: 5vw;
+        .menu{
+            width: 90px;
+            .nav{
+                left: -20px; 
+                font-size: 1.3em;
+                li{ margin-bottom: 1.5vw; } 
+            } 
+        }
+    } // header    
+
+    .home{
+        .intros{ font-size: 10vw; } 
+        .summarys{
+            width: 90vw; 
+            .left{
+                width: 45%; height: 60vw;
+                img{ height: 100%; }
+            }
+            .right{ width: 50%; }
+        } 
+        .packages{ padding: 130px 0; } 
+        .webs{
+            width: 90vw;
+            margin: 20% auto 200px;
+            .p-bg{ width: 55%; }
+        }
+        .designs{
+            width: 90vw;
+            div a{ font-size: 4vw;  width: 23%; }
+        }
+    } // home
+
+    .about .me{ 
+        width: 85vw;
+        .content{
+            width: 85vw;
+            .icon{ display: none; }
+            .con{ width: 100%; }
+        }
+    }
+
+    .ui{
+        width: 85vw;
+        .contents{
+            flex-direction: column;
+            .card{
+                width: 100%;
+                .info .link a{ margin-top: 6px; }
+            }
+        }
+    }
+
+    .footer{
+        .con, .copyright{ width: 90vw; } 
+    } 
+}
+
+
+// 포폴 타이틀/위치
+.con-title .title{ font-size: 2.5em; }
+.contents{
+    .detail{
+        .top{ font-size: 0.8em; }
+        .bottom{
+            font-size: 0.8em;
+            div:nth-child(2){ display: none; }
+        }
+    } 
+    .web .top{ display: block; p{display: none;} }
+}
+
+.package, .web, .etc{ width: 85vw; }
+
+// mason
+.grid{width: 100% !important; margin: 0 !important; padding: 0;}
+.grid-sizer{ width: 30%; }
+.grid-item { width: 30%; }
+.grid-item.big { width: calc(97%); }
+
+
+
+}

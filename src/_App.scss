@@ -1,0 +1,64 @@
+@media (max-width:1280px) {
+
+.App {
+    .header{
+        left: 90vw;
+        .menu{
+            border-radius: 15px;
+            .nav{ left: -20px; } 
+        } 
+    } // header    
+
+    .home{
+        .title{ font-size: 4.5em; }
+        .intros{ font-size: 8vw; } 
+        .summarys{
+            width: 80vw;    
+            .left{ width: 45%; }
+            .right{ width: 50%; }
+        } 
+        .webs{
+            width: 70vw;
+            margin: 20% auto 120px;
+            .p-bg{ width: 50%; }
+        }
+        .designs{
+            width: 70vw;
+            div a{ font-size: 2.2vw; width: 23%; }
+        }
+    } // home
+    .about{
+        .me{
+            width: 80vw;
+            .content{ width: 75vw; } 
+        }
+    }
+    .ui{ width: 80vw; }
+
+    .footer .con{width: 80vw;}
+
+}
+
+// 포폴 타이틀/위치
+.contents{
+    .detail .bottom{div:nth-child(2){ display: none; }}
+    .web{
+        .text{
+            justify-content: flex-start;
+            .top{display: none;}
+            .bottom{
+                b{display: none;}
+                p{font-size: 1em;}
+            }
+        }
+    }
+}
+.package, .web, .etc{width: 80vw;}
+
+// mason
+.grid-item.big {
+  width: calc(((100% - 100px) / 6) * 5 + 60px);
+  aspect-ratio: 3 / 1.73;
+}
+
+}

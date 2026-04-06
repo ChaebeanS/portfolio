@@ -1,0 +1,367 @@
+{
+    "web":[
+        {
+            "id":1,
+            "brand":"k헬스바이오",
+            "name":"프로루틴 코코아",
+            "thumb":"./imgs/web/thumb_pro.png",
+            "detail":"./imgs/web/de_pro.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":2,
+            "brand":"닉클립",
+            "name":"왁스병 캔디",
+            "thumb":"./imgs/web/thumb_nik.png",
+            "detail":"./imgs/web/de_nik.png",
+            "text":"기획ㅣ상세디자인"
+        },
+        {
+            "id":3,
+            "brand":"메디필",
+            "name":"딥 VC 울트라 크림",
+            "thumb":"./imgs/web/thumb_deepVC.png",
+            "detail":"./imgs/web/de_deepVC.png",
+            "text":"기획ㅣ상세디자인"
+        },
+        {
+            "id":4,
+            "brand":"메디필",
+            "name":"V 퍼펙트 쉐이프 리프팅 미스트",
+            "thumb":"./imgs/web/thumb_perfect.png",
+            "detail":"./imgs/web/de_perfect.png",
+            "text":"기획ㅣ상세디자인"
+        },
+        {
+            "id":5,
+            "brand":"메디큐브",
+            "name":"레드 아크네 바디워시 2.0",
+            "thumb":"./imgs/web/thumb_red.png",
+            "detail":"./imgs/web/de_red.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":6,
+            "brand":"그라펜",
+            "name":"루트 부스터 샴푸",
+            "thumb":"./imgs/web/thumb_root.png",
+            "detail":"./imgs/web/de_root.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":7,
+            "brand":"그라펜",
+            "name":"제로-더티 샴푸",
+            "thumb":"./imgs/web/thumb_zero.png",
+            "detail":"./imgs/web/de_zero.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":8,
+            "brand":"그라펜",
+            "name":"시카 실키 샴푸",
+            "thumb":"./imgs/web/thumb_cicaS.png",
+            "detail":"./imgs/web/de_cicaS.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":9,
+            "brand":"그라펜",
+            "name":"시카 케어 트리트먼트",
+            "thumb":"./imgs/web/thumb_cicaT.png",
+            "detail":"./imgs/web/de_cicaT.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":10,
+            "brand":"마미케어",
+            "name":"들깨 미백 세럼",
+            "thumb":"./imgs/web/thumb_momS.png",
+            "detail":"./imgs/web/de_momS.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":11,
+            "brand":"마미케어",
+            "name":"바다포도 클렌징 티슈",
+            "thumb":"./imgs/web/thumb_momC.png",
+            "detail":"./imgs/web/de_momC.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":12,
+            "brand":"히어로",
+            "name":"맥스 비프 리버",
+            "thumb":"./imgs/web/thumb_max.png",
+            "detail":"./imgs/web/de_max.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":13,
+            "brand":"히어로",
+            "name":"마린 콜라겐",
+            "thumb":"./imgs/web/thumb_marine.png",
+            "detail":"./imgs/web/de_marine.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":14,
+            "brand":"히어로",
+            "name":"바이오 액티브 마그네슘",
+            "thumb":"./imgs/web/thumb_bio.png",
+            "detail":"./imgs/web/de_bio.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":15,
+            "brand":"히어로",
+            "name":"엔자이어티",
+            "thumb":"./imgs/web/thumb_anxiety.png",
+            "detail":"./imgs/web/de_anxiety.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":16,
+            "brand":"굿스페이스",
+            "name":"엔자이어티 에이드",
+            "thumb":"./imgs/web/thumb_aid.png",
+            "detail":"./imgs/web/de_aid.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":17,
+            "brand":"모어브이",
+            "name":"스티키 퓨어 슬라임",
+            "thumb":"./imgs/web/thumb_sticky.png",
+            "detail":"./imgs/web/de_sticky.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":18,
+            "brand":"모어브이",
+            "name":"워터 컬러 클렌저",
+            "thumb":"./imgs/web/thumb_water.png",
+            "detail":"./imgs/web/de_water.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":19,
+            "brand":"모어브이",
+            "name":"플레이 버블 클렌저",
+            "thumb":"./imgs/web/thumb_bubble.png",
+            "detail":"./imgs/web/de_bubble.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":20,
+            "brand":"라운드어라운드",
+            "name":"컴포트 그린티 카밍 선크림",
+            "thumb":"./imgs/web/thumb_sun.png",
+            "detail":"./imgs/web/de_sun.png",
+            "text":"기획ㅣ상세디자인"
+        },
+        {
+            "id":21,
+            "brand":"줄라이미",
+            "name":"퍼퓸 헤어바디 4U set",
+            "thumb":"./imgs/web/thumb_freesia.png",
+            "detail":"./imgs/web/de_freesia.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":22,
+            "brand":"플루이드",
+            "name":"프리 바디 밸런스",
+            "thumb":"./imgs/web/thumb_fluid.png",
+            "detail":"./imgs/web/de_fluid.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":23,
+            "brand":"뉴트리디데이",
+            "name":"글루타치온 비타민C 콜라겐",
+            "thumb":"./imgs/web/thumb_Nglu.png",
+            "detail":"./imgs/web/de_Nglu.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":24,
+            "brand":"뉴트리디데이",
+            "name":"메가렉스 루테인 20",
+            "thumb":"./imgs/web/thumb_Nlutein.png",
+            "detail":"./imgs/web/de_Nlutein.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":25,
+            "brand":"뉴트리디데이",
+            "name":"가르시니아 올뉴",
+            "thumb":"./imgs/web/thumb_Ngarcinia.png",
+            "detail":"./imgs/web/de_Ngarcinia.png",
+            "text":"기획ㅣ상세디자인"
+        },
+        {
+            "id":26,
+            "brand":"뉴트리디데이",
+            "name":"카테킨 400",
+            "thumb":"./imgs/web/thumb_Ncatechin.png",
+            "detail":"./imgs/web/de_Ncatechin.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":27,
+            "brand":"뉴트리디데이",
+            "name":"다이어트 자색고구마 쉐이크",
+            "thumb":"./imgs/web/thumb_Nshake.png",
+            "detail":"./imgs/web/de_Nshake.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":28,
+            "brand":"뉴트리디데이",
+            "name":"시그니처 콤부차 레몬",
+            "thumb":"./imgs/web/thumb_Nlemon.png",
+            "detail":"./imgs/web/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":29,
+            "brand":"뉴트리디데이",
+            "name":"시그니처 콤부차 피치",
+            "thumb":"./imgs/web/thumb_Npeach.png",
+            "detail":"./imgs/web/de_Npeach.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":30,
+            "brand":"뉴트리디데이",
+            "name":"프리미엄 맥주효모 비오틴",
+            "thumb":"./imgs/web/thumb_Nbiotin.png",
+            "detail":"./imgs/web/de_Nbiotin.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":31,
+            "brand":"뉴트리디데이",
+            "name":"프리미엄 비타민D 5000 IU",
+            "thumb":"./imgs/web/thumb_Nvita.png",
+            "detail":"./imgs/web/de_Nvita.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":32,
+            "brand":"홀리데이즈",
+            "name":"블랙마카 1600",
+            "thumb":"./imgs/web/thumb_Hblack.png",
+            "detail":"./imgs/web/de_Hblack.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":33,
+            "brand":"홀리데이즈",
+            "name":"콘드로이친 3000",
+            "thumb":"./imgs/web/thumb_Hchon.png",
+            "detail":"./imgs/web/de_Hchon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        },
+        {
+            "id":34,
+            "brand":"홀리데이즈",
+            "name":"링곤베리 퓨레 글루타치온 로즈힙",
+            "thumb":"./imgs/web/thumb_Hringo.png",
+            "detail":"./imgs/web/de_Hringo.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인"
+        }
+    ],
+    "package":[
+        {
+            "id":1,
+            "brand":"뉴트리디데이",
+            "name":"카테킨 400",
+            "thumb":"./imgs/package/thumb_Ncatechin.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":2,
+            "brand":"뉴트리디데이",
+            "name":"메가렉스 루테인 20",
+            "thumb":"./imgs/package/thumb_Nlutein.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":3,
+            "brand":"뉴트리디데이",
+            "name":"가르시니아 올뉴",
+            "thumb":"./imgs/package/thumb_Ngarcinia.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":4,
+            "brand":"뉴트리디데이",
+            "name":"다이어트 자색고구마 쉐이크",
+            "thumb":"./imgs/package/thumb_Nshake.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":5,
+            "brand":"뉴트리디데이",
+            "name":"시그니처 콤부차 레몬",
+            "thumb":"./imgs/package/thumb_Nlemon.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":6,
+            "brand":"뉴트리디데이",
+            "name":"시그니처 콤부차 피치",
+            "thumb":"./imgs/package/thumb_Npeach.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":7,
+            "brand":"홀리데이즈",
+            "name":"블랙마카 1600",
+            "thumb":"./imgs/web/thumb_Hblack.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":8,
+            "brand":"홀리데이즈",
+            "name":"콘드로이친 3000",
+            "thumb":"./imgs/web/thumb_Hchon.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":9,
+            "brand":"홀리데이즈",
+            "name":"링곤베리 퓨레 글루타치온 로즈힙",
+            "thumb":"./imgs/web/thumb_Hringo.png",
+            "detail":"./imgs/package/de_Nlemon.png",
+            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        }
+    ],
+    "bannerData": [
+        { "id": 1, "url": "./imgs/main/package_01.png" },
+        { "id": 2, "url": "./imgs/main/package_02.png" },
+        { "id": 3, "url": "./imgs/main/package_01.png" },
+        { "id": 4, "url": "./imgs/main/package_02.png" },
+        { "id": 5, "url": "./imgs/main/package_01.png" },
+        { "id": 6, "url": "./imgs/main/package_02.png" }
+    ]
+}
