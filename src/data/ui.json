@@ -4,7 +4,7 @@
       "id": "1",
       "title": "WEATHER MOOD",
       "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스",
-      "img": "./imgs/ui/thumb_wm.jpg",
+      "img": "./imgs/ui/thumb_weather.jpg",
       "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣBananaㅣGithub",
       "role": "<span>팀프로젝트</span> 기획ㅣ캐릭터디자인ㅣ컨셉디자인ㅣ오늘의무드",
       "link": "/"      
@@ -13,7 +13,7 @@
       "id": "2",
       "title": "STUDIO BEAN",
       "detail": "포트폴리오",
-      "img": "./imgs/ui/thumb_por.jpg",
+      "img": "./imgs/ui/thumb_port.jpg",
       "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣBananaㅣGithub",
       "role": "<span>개인프로젝트</span>",
       "link": "/"      
