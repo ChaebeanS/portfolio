@@ -142,7 +142,8 @@
 .grid{width: 100% !important; margin: 0 !important; padding: 0;}
 .grid-sizer{ width: calc((100% - 40px) / 3);}
 .grid-item {
-    padding-left: 2px;
+    padding-left: 2px;    
+    margin-bottom: 30px;
     width: calc((100% - 40px) / 3);
 
     &.active{
