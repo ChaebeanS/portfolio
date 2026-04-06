@@ -67,7 +67,7 @@ export default function Web() {
       <article className='web'>
         <div className='con-title'>
           <p className='title'>Web design</p>
-          <p>제품의 가치가 돋보이는 가장 매력적인 온라인 쇼룸을 만듭니다</p>
+          <p>패키지에 담긴 브랜드의 정체성을 가장 명확하고 매력적인 상세페이지로 연결합니다</p>
         </div>
         <div className='contents'>
           <div className="list" ref={gridRef}>
