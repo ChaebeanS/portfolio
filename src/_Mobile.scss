@@ -147,8 +147,13 @@
     width: calc((100% - 40px) / 3);
 
     &.active{
-        border-radius: 10px;
+        background: none;
+        border: none;
         padding: 0px;
+        img{
+            border: #CADD98 5px solid;
+            box-sizing: border-box;
+        }
     }
 }
 .grid-item.big { width: 100%; }
