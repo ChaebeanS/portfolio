@@ -66,7 +66,7 @@ export default function Etc() {
                 <img src={item.thumb} alt={`etc-${item.id}`} />
                 
                 {item.hasModal && (
-                  <div className="zoom-btn" onClick={() => setModalImg(item.detail)}>
+                  <div className="zoom-btn" onTouchStart={() => setModalImg(item.detail)} onClick={() => setModalImg(item.detail)}>
                     <span>+</span>
                   </div>
                 )}
