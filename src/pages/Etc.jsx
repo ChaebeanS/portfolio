@@ -43,7 +43,7 @@ export default function Etc() {
       imagesLoaded(gridRef.current).on("always", () => {
         setTimeout(()=>{
           pckryRef.current.layout();
-        },1000)
+        },500)
       });
 
       return () => pckryRef.current?.destroy();
