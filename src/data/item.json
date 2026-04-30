@@ -363,5 +363,167 @@
         { "id": 4, "url": "./imgs/main/package_02.png" },
         { "id": 5, "url": "./imgs/main/package_01.png" },
         { "id": 6, "url": "./imgs/main/package_02.png" }
+    ],
+    "etc" : [
+        {
+            "id":1,
+            "thumb":"./imgs/etc/T_H_deal_01.jpg",
+            "detail":"./imgs/etc/H_deal_01.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":2,
+            "thumb":"./imgs/etc/T_H_deal_02.jpg",
+            "detail":"./imgs/etc/H_deal_02.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":3,
+            "thumb":"./imgs/etc/T_H_deal_03.jpg",
+            "detail":"./imgs/etc/H_deal_03.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":4,
+            "thumb":"./imgs/etc/T_H_deal_04.jpg",
+            "detail":"./imgs/etc/H_deal_04.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":5,
+            "thumb":"./imgs/etc/T_H_deal_05.jpg",
+            "detail":"./imgs/etc/H_deal_05.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":6,
+            "thumb":"./imgs/etc/T_N_deal_01.jpg",
+            "detail":"./imgs/etc/N_deal_01.jpg"
+        },
+        {
+            "id":7,
+            "thumb":"./imgs/etc/T_N_deal_02.jpg",
+            "detail":"./imgs/etc/N_deal_02.jpg"
+        },
+        {
+            "id":8,
+            "thumb":"./imgs/etc/T_N_deal_03.jpg",
+            "detail":"./imgs/etc/N_deal_03.gif",
+            "hasModal": true 
+        },
+        {
+            "id":9,
+            "thumb":"./imgs/etc/T_N_deal_04.jpg",
+            "detail":"./imgs/etc/N_deal_04.jpg"
+        },
+        {
+            "id":10,
+            "thumb":"./imgs/etc/T_N_deal_05.jpg",
+            "detail":"./imgs/etc/N_deal_05.jpg"
+        },
+        {
+            "id":11,
+            "thumb":"./imgs/etc/T_N_deal_06.jpg",
+            "detail":"./imgs/etc/N_deal_06.jpg"
+        },
+        {
+            "id":12,
+            "thumb":"./imgs/etc/T_N_deal_07.jpg",
+            "detail":"./imgs/etc/N_deal_07.jpg",
+            "hasModal": true 
+        },
+        {
+            "id":13,
+            "thumb":"./imgs/etc/T_N_deal_08.jpg",
+            "detail":"./imgs/etc/N_deal_08.jpg"
+        },
+        {
+            "id":14,
+            "thumb":"./imgs/etc/B_bannerA_01.jpg",
+            "detail":"./imgs/etc/B_bannerA_01.jpg"
+        },
+        {
+            "id":15,
+            "thumb":"./imgs/etc/B_bannerA_02.jpg",
+            "detail":"./imgs/etc/B_bannerA_02.jpg"
+        },
+        {
+            "id":16,
+            "thumb":"./imgs/etc/B_bannerA_03.jpg",
+            "detail":"./imgs/etc/B_bannerA_03.jpg"
+        },
+        {
+            "id":17,
+            "thumb":"./imgs/etc/B_bannerA_04.jpg",
+            "detail":"./imgs/etc/B_bannerA_04.jpg"
+        },
+        {
+            "id":18,
+            "thumb":"./imgs/etc/B_bannerA_05.jpg",
+            "detail":"./imgs/etc/B_bannerA_05.jpg"
+        },
+        {
+            "id":19,
+            "thumb":"./imgs/etc/B_bannerA_06.jpg",
+            "detail":"./imgs/etc/B_bannerA_06.jpg"
+        },
+        {
+            "id":20,
+            "thumb":"./imgs/etc/B_bannerA_07.jpg",
+            "detail":"./imgs/etc/B_bannerA_07.jpg"
+        },
+        {
+            "id":21,
+            "thumb":"./imgs/etc/B_bannerA_08.jpg",
+            "detail":"./imgs/etc/B_bannerA_08.jpg"
+        },
+        {
+            "id":22,
+            "thumb":"./imgs/etc/T_B_bannerB_01.jpg",
+            "detail":"./imgs/etc/B_bannerB_01.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":23,
+            "thumb":"./imgs/etc/T_B_bannerB_02.jpg",
+            "detail":"./imgs/etc/B_bannerB_02.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":24,
+            "thumb":"./imgs/etc/T_B_bannerB_03.jpg",
+            "detail":"./imgs/etc/B_bannerB_03.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":25,
+            "thumb":"./imgs/etc/T_B_bannerB_04.jpg",
+            "detail":"./imgs/etc/B_bannerB_04.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":26,
+            "thumb":"./imgs/etc/T_B_bannerB_05.jpg",
+            "detail":"./imgs/etc/B_bannerB_05.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":27,
+            "thumb":"./imgs/etc/T_B_bannerB_06.jpg",
+            "detail":"./imgs/etc/B_bannerB_06.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":28,
+            "thumb":"./imgs/etc/T_B_bannerB_07.jpg",
+            "detail":"./imgs/etc/B_bannerB_07.jpg",
+            "size": "wide" 
+        },
+        {
+            "id":29,
+            "thumb":"./imgs/etc/T_B_bannerB_08.jpg",
+            "detail":"./imgs/etc/B_bannerB_08.jpg",
+            "size": "wide" 
+        }
     ]
 }

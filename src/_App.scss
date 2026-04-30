@@ -61,4 +61,21 @@
   aspect-ratio: 3 / 1.73;
 }
 
+// mason 2
+.etc-grid{
+    .etc-grid-item{
+        width: calc(25% - 12px); 
+        margin-bottom: 15px;
+    }
+
+    .etc-grid-item.wide{ width: calc(50% - 12px); }
+
+    .zoom-btn{
+        width: 35px; height: 35px;
+        font-size: 20px;
+    }
+}
+
+.modal-overlay .modal-content{ max-width: 450px; }
+
 }

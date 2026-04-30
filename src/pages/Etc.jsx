@@ -1,112 +1,93 @@
 import { useEffect, useRef, useState } from "react";
-import Masonry from "masonry-layout";
-import imagesLoaded from "imagesloaded";
 import itemData from "../data/item.json"; 
+import Packery from "packery";
+import Draggabilly from "draggabilly";
+import imagesLoaded from "imagesloaded";
+
+const shuffle = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
 
 export default function Etc() {
   const gridRef = useRef(null);
-  const masonryRef = useRef(null);
+  const pckryRef = useRef(null); 
+  const [items] = useState(() => shuffle(itemData.etc));
+  const [modalImg, setModalImg] = useState(null); 
 
-  // 아이템 인덱스 관리용
-  const [activeIndex, setActiveIndex] = useState(null);
-  const items = itemData.web;
-  const activeItem = activeIndex !== null ? items[activeIndex] : null;
-
-  // 아이템 클릭 시 실행
-  const handleItemClick = (index) => {
-    setActiveIndex(index);
-    // 스크롤이동
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  // 좌우이동
-  const handlePrev = (e) => {
-    e.stopPropagation(); 
-    setActiveIndex((prev) => (prev > 0 ? prev - 1 : items.length - 1));
-  };
-  const handleNext = (e) => {
-    e.stopPropagation();
-    setActiveIndex((prev) => (prev < items.length - 1 ? prev + 1 : 0));
-  };
-
-
-  // Masonry 초기화 + 이미지 로딩 대응
   useEffect(() => {
-    if (gridRef.current) {
-      masonryRef.current = new Masonry(gridRef.current, {
-        itemSelector: ".grid-item",
-        columnWidth: ".grid-sizer",
+    window.scrollTo(0, 0);
+
+    if (gridRef.current && items.length > 0) {
+      // Packery 초기화
+      pckryRef.current = new Packery(gridRef.current, {
+        itemSelector: ".etc-grid-item",
+        columnWidth: ".etc-grid-item",
+        gutter: 15,
         percentPosition: true,
-        gutter: 20,
       });
 
-      // 이미지 로딩 후 layout
-      imagesLoaded(gridRef.current).on("progress", () => {
-        masonryRef.current.layout();
+      // 드래그
+      const itemsElements = gridRef.current.querySelectorAll('.etc-grid-item');
+      itemsElements.forEach((itemElem) => {
+        const draggie = new Draggabilly(itemElem);
+        // Packery 인스턴스에 드래그 요소 연결
+        pckryRef.current.bindDraggabillyEvents(draggie);
       });
 
-      //스크롤이동
-      window.scrollTo(0,0);
+      // 이미지 로딩 후 레이아웃 재배치
+      imagesLoaded(gridRef.current).on("always", () => {
+        setTimeout(()=>{
+          pckryRef.current.layout();
+        },1000)
+      });
+
+      return () => pckryRef.current?.destroy();
     }
+  }, [items]);
 
-    return () => masonryRef.current?.destroy();
-  }, []);
-
-  // 디테일 열릴 때
-  useEffect(() => {
-    if (!masonryRef.current) return;
-
-    requestAnimationFrame(() => {
-      masonryRef.current.reloadItems();
-      masonryRef.current.layout();
-    });
-  }, [activeItem]);
 
   return (
     <section className="bg-white">
       <article className='etc'>
         <div className='con-title'>
           <p className='title'>Etc design</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>브랜드의 가치를 다양한 매체에 최적화된 비주얼 콘텐츠로 전달합니다</p>
         </div>
         <div className='contents'>
-          <div className="list" ref={gridRef}>
-            <div className="grid-sizer"></div>
-            {/* detail */}
-            {activeItem && (
-              <div className="grid-item  detail web big" onClick={()=>setActiveIndex(null)}>
-                <button className="nav-btn prev" onClick={handlePrev}>&lt;</button>
-                <button className="nav-btn next" onClick={handleNext}>&gt;</button>                
+
+          <div className="etc-grid" ref={gridRef}>
+            {items.map((item) => (
+              <figure key={item.id} className={`etc-grid-item ${item.size === 'wide' ? 'wide' : ''}`}>
+                <img src={item.thumb} alt={`etc-${item.id}`} />
                 
-                <img src={activeItem.detail} alt="detail" />
-                  <div className='text'>
-                    <div className='top'>
-                      <p>{activeItem.brand}</p>
-                      <h2>{activeItem.name}</h2>
-                    </div>
-                    <div className='bottom'>
-                      <div>
-                        <b>Work</b>
-                        <p>{activeItem.text}</p>
-                      </div>
-                    </div>
+                {item.hasModal && (
+                  <div className="zoom-btn" onClick={() => setModalImg(item.detail)}>
+                    <span>+</span>
                   </div>
-              </div>
-            )}
-            {/* 리스트 */}
-            {items.map((item,index) => (
-              <figure
-                key={item.id}
-                className={`grid-item ${activeIndex === index ? "active" : ""}`}
-                onClick={() => handleItemClick(index)}
-              >
-                <img src={item.thumb} alt="thumb" />
-                <figcaption>{item.name}</figcaption>
+                )}
               </figure>
             ))}
           </div>
+
         </div>
       </article>
+
+      {modalImg && (
+        <div className="modal-overlay" onClick={() => setModalImg(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-x" onClick={() => setModalImg(null)}>&times;</button>
+            <div className="modal-body">
+              <img src={modalImg} alt="Detail view" />
+            </div>
+          </div>
+        </div>
+      )}
+
     </section>
   );
 }

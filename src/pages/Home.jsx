@@ -5,7 +5,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import TypeIt from "typeit-react";
 import itemData from "../data/item.json";
-
+import { BsChevronDown } from "react-icons/bs";
 
 function Home() {
 
@@ -50,6 +50,11 @@ function Home() {
             }}
             />
           </p>
+        </div>
+        <div className="scroll-guide">
+          <BsChevronDown className="arrow-icon" />
+          <BsChevronDown className="arrow-icon" />
+          <BsChevronDown className="arrow-icon" />
         </div>
       </section>
 

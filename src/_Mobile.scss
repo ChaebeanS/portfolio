@@ -163,5 +163,37 @@
 .grid-item.big { width: 100%; }
 
 
+// mason 2
+.etc-grid {
+    .etc-grid-item{
+      width: calc(50% - 10px); 
+      margin-bottom: 10px;
+    }
+
+    .etc-grid-item.wide{ width: calc(100% - 10px); }
+
+    .zoom-btn {
+      opacity: 0.9; 
+      width: 35px; height: 35px;
+      font-size: 18px;
+    }
+  }
+
+  .modal-overlay{
+    .modal-content{
+      width: 95%;
+      max-width: none; 
+      
+      .close-x {
+        top: 5px; right: 5px; 
+        font-size: 24px;
+      }
+      
+      .modal-body{
+        max-height: 70vh; 
+      }
+    }
+  }
+
 
 }
