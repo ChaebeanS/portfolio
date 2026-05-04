@@ -30,37 +30,23 @@ export default function Web() {
   };
 
 
-  // Masonry 초기화 + 이미지 로딩 대응
+  // Masonry 
   useEffect(() => {
     if (gridRef.current) {
       masonryRef.current = new Masonry(gridRef.current, {
-        itemSelector: ".grid-item",
-        columnWidth: ".grid-sizer",
+        itemSelector: ".web-grid-item", 
+        columnWidth: ".web-grid-sizer", 
         percentPosition: true,
         gutter: 20,
       });
 
-      // 이미지 로딩 후 layout
       imagesLoaded(gridRef.current).on("progress", () => {
         masonryRef.current.layout();
       });
-
-      //스크롤이동
       window.scrollTo(0,0);
     }
-
     return () => masonryRef.current?.destroy();
   }, []);
-
-  // 디테일 열릴 때
-  useEffect(() => {
-    if (!masonryRef.current) return;
-
-    requestAnimationFrame(() => {
-      masonryRef.current.reloadItems();
-      masonryRef.current.layout();
-    });
-  }, [activeItem]);
 
   return (
     <section className="bg-white">
@@ -70,36 +56,11 @@ export default function Web() {
           <p>패키지에 담긴 브랜드의 정체성을 가장 명확하고 매력적인 상세페이지로 연결합니다</p>
         </div>
         <div className='contents'>
-          <div className="list" ref={gridRef}>
-            <div className="grid-sizer"></div>
-            {/* detail */}
-            {activeItem && (
-              <div className="grid-item  detail web big" onClick={()=>setActiveIndex(null)}>
-                <button className="nav-btn prev" onClick={handlePrev}>&lt;</button>
-                <button className="nav-btn next" onClick={handleNext}>&gt;</button>                
-                
-                <img src={activeItem.detail} alt="detail" />
-                  <div className='text'>
-                    <div className='top'>
-                      <p>{activeItem.brand}</p>
-                      <h2>{activeItem.name}</h2>
-                    </div>
-                    <div className='bottom'>
-                      <div>
-                        <b>Work</b>
-                        <p>{activeItem.text}</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            )}
-            {/* 리스트 */}
-            {items.map((item,index) => (
-              <figure
-                key={item.id}
-                className={`grid-item ${activeIndex === index ? "active" : ""}`}
-                onClick={() => handleItemClick(index)}
-              >
+          {/* 리스트 */}
+          <div className="web-grid" ref={gridRef}>
+            <div className="web-grid-sizer"></div>
+            {items.map((item, index) => (
+              <figure key={item.id} className="web-grid-item" onClick={() => handleItemClick(index)}>
                 <img src={item.thumb} alt="thumb" />
                 <figcaption>{item.name}</figcaption>
               </figure>
@@ -107,6 +68,35 @@ export default function Web() {
           </div>
         </div>
       </article>
+
+      {/* 모달 */}
+      {activeItem && (
+        <div className="modal-overlay" onClick={() => setActiveIndex(null)}>
+          <div className="modal-content web-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="close-x" onClick={() => setActiveIndex(null)}>&times;</button>
+            
+            {/* 내비게이션 */}
+            <button className="nav-btn prev" onClick={handlePrev}>&lt;</button>
+            <button className="nav-btn next" onClick={handleNext}>&gt;</button>                
+            
+            <div className="modal-body">
+              <img src={activeItem.detail} alt="detail" />
+              <div className='text'>
+                <div className='top'>
+                  <p>{activeItem.brand}</p>
+                  <h2>{activeItem.name}</h2>
+                </div>
+                <div className='bottom'>
+                  <div>
+                    <b>Work</b>
+                    <p>{activeItem.text}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

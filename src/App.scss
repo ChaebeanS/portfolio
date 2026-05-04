@@ -596,62 +596,12 @@ body {
 }
 .designs.ani.active a{transform: translateX(0);}
 
+ 
 
-// ui모달
-.modal-overlay{
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-
-    .modal-content{
-        background-color: white;
-        padding: 60px 40px;
-        border-radius: 30px;
-        position: relative;
-        max-width: 600px;
-        width: 90%;
-        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-
-        .close-btn{
-            position: absolute;
-            top: 25px;
-            right: 25px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            color: gray;
-            &:hover{ color: black; }
-        }
-
-        .modal-body{
-            h2{
-                color: black;
-                font-size: 2rem;
-                margin-bottom: 20px;
-                border-bottom: 2px solid lightgreen;
-                display: inline-block;
-                padding-bottom: 5px;
-            }
-            p{
-                line-height: 1.8;
-                color: #555;
-                font-size: 1.1rem;
-                white-space: pre-line; 
-            }
-        }
-    }
-}   
-
-
-// mason 1
-.grid{width: 80%; margin-left: -5px;}
+// mason 1. package
+.grid{width: 80vw; margin-left: -5px;}
 .grid-sizer{ width: calc((100% - 100px) / 6);}
-.grid-item {
+.grid-item{
     padding-left: 5px;
     margin-bottom: 20px;
     width: calc((100% - 100px) / 6);
@@ -701,7 +651,73 @@ body {
   aspect-ratio: 3 / 2.1;
 }
 
-// mason 2
+
+// mason 2. web
+.web-grid{
+    width: 100%; 
+    margin-left: -5px;
+
+    .web-grid-sizer{ width: calc((100% - 100px) / 6); }
+    .web-grid-item{
+        padding-left: 5px; 
+        margin-bottom: 20px; 
+        width: calc((100% - 100px) / 6);
+        aspect-ratio: 3/4;
+        cursor: pointer;
+
+        img{ 
+            width: 100%; height: 100%; 
+            object-fit: cover; 
+            display: block;
+            border-radius: 20px; 
+        }
+
+        figcaption{ 
+            text-align: left;
+            margin: 0;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            display: block;
+            width: 100%;
+        }
+    }
+}
+// web모달 
+.modal-content.web-modal{
+    max-width: 800px; 
+    background: white;
+
+    .nav-btn{
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.8);
+        border: none; width: 50px; height: 50px;
+        border-radius: 50%; font-size: 24px; cursor: pointer;
+        z-index: 20;
+        &.prev { left: 20px; }
+        &.next { right: 20px; }
+        &:hover { background: white; }
+    }
+
+    .modal-body{
+        .text{
+            padding: 30px;
+            background: #fff;
+            .top{
+                margin-bottom: 20px;
+                p{ color: #888; font-size: 0.9rem; }
+                h2{ font-size: 1.8rem; margin-top: 5px; }
+            }
+            .bottom{
+                b{ display: block; margin-bottom: 5px; color: #CADD9B; }
+                p{ line-height: 1.6; color: #555; }
+            }
+        }
+    }
+}
+
+// mason 3. etc
 .etc-grid{
   width: 100%; 
   margin: 0 auto;
@@ -744,8 +760,7 @@ body {
 
   &:hover .zoom-btn{ opacity: 1; }
 }
-
-// 모달 
+// etc모달 
 .modal-overlay{
   position: fixed;
   top: 0; left: 0;
@@ -793,6 +808,56 @@ body {
     }
   }
 }
+
+// ui모달
+.uu-modal-overlay{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    .uu-modal-content{
+        background-color: white;
+        padding: 60px 40px;
+        border-radius: 30px;
+        position: relative;
+        max-width: 600px;
+        width: 90%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+
+        .close-btn{
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: gray;
+            &:hover{ color: black; }
+        }
+
+        .modal-body{
+            h2{
+                color: black;
+                font-size: 2rem;
+                margin-bottom: 20px;
+                border-bottom: 2px solid lightgreen;
+                display: inline-block;
+                padding-bottom: 5px;
+            }
+            p{
+                line-height: 1.8;
+                color: #555;
+                font-size: 1.1rem;
+                white-space: pre-line; 
+            }
+        }
+    }
+}  
 
 canvas{
     display: block;
