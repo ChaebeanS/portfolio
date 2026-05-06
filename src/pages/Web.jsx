@@ -72,28 +72,26 @@ export default function Web() {
       {/* 모달 */}
       {activeItem && (
         <div className="modal-overlay" onClick={() => setActiveIndex(null)}>
-          <div className="modal-content web-modal" onClick={(e) => e.stopPropagation()}>
-            <button className="close-x" onClick={() => setActiveIndex(null)}>&times;</button>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             
-            {/* 내비게이션 */}
             <button className="nav-btn prev" onClick={handlePrev}>&lt;</button>
             <button className="nav-btn next" onClick={handleNext}>&gt;</button>                
             
-            <div className="modal-body">
+            <div className="img-box">
               <img src={activeItem.detail} alt="detail" />
-              <div className='text'>
-                <div className='top'>
-                  <p>{activeItem.brand}</p>
-                  <h2>{activeItem.name}</h2>
-                </div>
-                <div className='bottom'>
-                  <div>
-                    <b>Work</b>
-                    <p>{activeItem.text}</p>
-                  </div>
-                </div>
+            </div>
+
+            <div className='text'>
+              <div className='top'>
+                <p>{activeItem.brand}</p>
+                <h2>{activeItem.name}</h2>
+              </div>
+              <div className='bottom'>
+                <b>Work</b>
+                <p>{activeItem.text}</p>
               </div>
             </div>
+            
           </div>
         </div>
       )}

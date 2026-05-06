@@ -54,8 +54,8 @@ function Ui() {
       </article>
 
       {selectedModal && (
-        <div className="modal-overlay" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div className="uu-modal-overlay" onClick={closeModal}>
+          <div className="uu-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="close-btn" onClick={closeModal}>
               <IoClose size={30} />
             </button>

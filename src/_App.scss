@@ -55,13 +55,33 @@
 }
 .package, .web, .etc{width: 80vw;}
 
-// mason
+
+// mason 1. package
 .grid-item.big {
   width: calc(((100% - 100px) / 6) * 5 + 60px);
   aspect-ratio: 3 / 1.73;
 }
 
-// mason 2
+
+// web모달 
+.modal-overlay{
+    .modal-content{
+        width: 80vw;
+        height: auto; 
+        font-size: 0.8rem;
+
+        .img-box img{ width: 100%; }
+
+        .nav-btn {
+            opacity: 0.4;
+            width: 35px; 
+            height: 35px;
+        }
+    }
+}
+
+
+// mason 3. etc
 .etc-grid{
     .etc-grid-item{
         width: calc(25% - 12px); 
@@ -71,11 +91,11 @@
     .etc-grid-item.wide{ width: calc(50% - 12px); }
 
     .zoom-btn{
+        opacity: 1;
         width: 35px; height: 35px;
         font-size: 20px;
     }
 }
 
-.modal-overlay .modal-content{ max-width: 450px; }
 
 }

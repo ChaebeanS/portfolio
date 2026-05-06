@@ -78,9 +78,8 @@ export default function Etc() {
       </article>
 
       {modalImg && (
-        <div className="uu-modal-overlay" onClick={() => setModalImg(null)}>
-          <div className="uu-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setModalImg(null)}>&times;</button>
+        <div className="e-modal-overlay" onClick={() => setModalImg(null)}>
+          <div className="e-modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-body">
               <img src={modalImg} alt="Detail view" />
             </div>
