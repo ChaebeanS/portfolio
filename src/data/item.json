@@ -275,85 +275,202 @@
     ],
     "package":[
         {
-            "id":1,
+            "id":51,
             "brand":"뉴트리디데이",
             "name":"카테킨 400",
-            "thumb":"./imgs/package/thumb_Ncatechin.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "thumb":"./imgs/package/thumb_Ncatechin.jpg",
+            "detail":"./imgs/package/de_Ncatechin.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"<span>녹차 카테킨 성분의 건강한 가치를 전달하다.</span> 원료 특성을 직관적으로 인지할 수 있도록 픽토그램을 활용하고 톤다운된 그린과 연두빛 컬러웨이를 적용해 녹차의 건강한 무드를 표현했습니다."
         },
         {
-            "id":2,
+            "id":52,
             "brand":"뉴트리디데이",
             "name":"메가렉스 루테인 20",
-            "thumb":"./imgs/package/thumb_Nlutein.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "thumb":"./imgs/package/thumb_Nlutein.jpg",
+            "detail":"./imgs/package/de_Nlutein.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"<span>선명한 그래픽으로 맑은 시야를 시각화하다.</span> 눈을 연상시키는 동심원 그래픽과 편안함을 위한 그린톤으로 맑고 선명한 눈 건강 영양제로서의 전문성을 직관적으로 강조했습니다."
         },
         {
-            "id":3,
+            "id":53,
             "brand":"뉴트리디데이",
-            "name":"가르시니아 올뉴",
-            "thumb":"./imgs/package/thumb_Ngarcinia.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "name":"프리미엄 맥주효모 비오틴",
+            "thumb":"./imgs/package/thumb_Nbiotin.jpg",
+            "detail":"./imgs/package/de_Nbiotin.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"<span>원료의 깊이감으로 프리미엄의 가치를 증명하다.</span> 맥주효모를 상징하는 진한 갈색 베이스에 보리를 형상화한 섬세한 패턴을 매치하여, 풍성한 영양과 원료 고유의 정체성을 감각적이고 고급스럽게 표현했습니다."
         },
         {
-            "id":4,
+            "id":54,
+            "brand":"뉴트리디데이",
+            "name":"시그니처 콘드로이친",
+            "thumb":"./imgs/package/thumb_Nchon.jpg",
+            "detail":"./imgs/package/de_Nchon.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 단품케이스(box)",
+            "view":"<span>세련된 모티브 그래픽으로 은유하다.</span> 일차원적이고 흔한 관절 형태의 그래픽에서 벗어나 결합과 지지를 형상화한 세련된 모티브 그래픽을 중심에 배치하여 관절 건강 영양제로서의 전문성을 표현했습니다."
+        },
+        {
+            "id":55,
             "brand":"뉴트리디데이",
             "name":"다이어트 자색고구마 쉐이크",
-            "thumb":"./imgs/package/thumb_Nshake.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "thumb":"./imgs/package/thumb_Nshake.jpg",
+            "detail":"./imgs/package/de_Nshake.jpg",
+            "text":"제품디자인ㅣ스틱파우치, 번들케이스(box)",
+            "view":"자색고구마 본연의 깊은 퍼플 톤을 패키지 전반에 매치하고 식감을 자극하는 생생한 연출 이미지를 더해, 다이어트 쉐이크 제품 특유의 맛과 건강한 생기를 직관적이고 완성도 높게 표현했습니다."
         },
         {
-            "id":5,
+            "id":56,
             "brand":"뉴트리디데이",
             "name":"시그니처 콤부차 레몬",
-            "thumb":"./imgs/package/thumb_Nlemon.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "thumb":"./imgs/package/thumb_Nlemon.jpg",
+            "detail":"./imgs/package/de_Nlemon.jpg",
+            "text":"제품디자인ㅣ스틱파우치, 번들케이스(box)",
             "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
         },
         {
-            "id":6,
+            "id":57,
             "brand":"뉴트리디데이",
             "name":"시그니처 콤부차 피치",
-            "thumb":"./imgs/package/thumb_Npeach.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "thumb":"./imgs/package/thumb_Npeach.jpg",
+            "detail":"./imgs/package/de_Npeach.jpg",
+            "text":"제품디자인ㅣ스틱파우치, 번들케이스(box)",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 복숭아의 달콤함을 직관적으로 연결하는 데 중점을 두었습니다."
         },
         {
-            "id":7,
+            "id":61,
             "brand":"홀리데이즈",
             "name":"블랙마카 1600",
-            "thumb":"./imgs/web/thumb_Hblack.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
-            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+            "thumb":"./imgs/package/thumb_Hblack.jpg",
+            "detail":"./imgs/package/de_Hblack.jpg",
+            "text":"제품디자인ㅣ스틱파우치, 번들케이스(box)",
+            "view":"<span>직관적인 심볼을 통해 폭발적인 에너지를 시각화하다.</span> 블랙 베이스에 대비감이 강한 번개 모티브로 소비자가 마주하는 첫 순간 제품의 강력한 에너지를 직관적으로 경험하도록 디자인했습니다."
         },
         {
-            "id":8,
+            "id":58,
             "brand":"홀리데이즈",
             "name":"콘드로이친 3000",
-            "thumb":"./imgs/web/thumb_Hchon.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "thumb":"./imgs/package/thumb_Hchon.jpg",
+            "detail":"./imgs/package/de_Hchon.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"브랜드가 추구하는 글로벌 무드의 디자인 전략에 맞추어 트렌디한 타이포그래피를 적용하고 전면에 생생한 상어 그래픽을 매치하여, 원료의 본질을 직관적이면서도 완성도 높게 표현했습니다."
+        },
+        {
+            "id":59,
+            "brand":"홀리데이즈",
+            "name":"링곤베리 퓨레 글루타치온 로즈힙",
+            "thumb":"./imgs/package/thumb_Hringo.jpg",
+            "detail":"./imgs/package/de_Hringo.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"브랜드의 글로벌 디자인 전략을 기반으로 원료의 생생한 무드와 붉은 링곤베리 원물 이미지를 전면에 세워, 링곤베리와 로즈힙 성분이 가진 상큼함과 신선한 활력을 직관적이고 감각적으로 완성했습니다."
+        },
+        {
+            "id":61,
+            "brand":"BTWO",
+            "name":"트러플 앰플 샴푸 염모제",
+            "thumb":"./imgs/package/thumb_SRbtwo.jpg",
+            "detail":"./imgs/package/de_SRbtwo.jpg",
+            "text":"제품디자인ㅣ3step파우치, 번들케이스(box)",
+            "view":"<span>패키지의 구조적 혁신을 통해 편의성을 극대화하다.</span> 전면 오픈형 번들 케이스 구조를 적용해 오프라인 진열 시 별도 집기 없이 즉각적인 매대 지지대 역할을 수행하도록 기능적으로 설계했습니다."
+        },
+        {
+            "id":62,
+            "brand":"브리베",
+            "name":"밸런싱 스켈프 토닉",
+            "thumb":"./imgs/package/thumb_SRbribe.jpg",
+            "detail":"./imgs/package/de_SRbribe.jpg",
+            "text":"제품디자인ㅣ용기, 단품케이스(box)",
+            "view":"브랜드의 시그니처 컬러를 용기와 케이스 전반에 일관되게 적용하고 정돈된 타이포그래피를 매치하여,<br> 헤어·헤드 스파 브랜드로서의 정체성과 신뢰감을 감각적으로 표현했습니다."
+        },
+        {
+            "id":63,
+            "brand":"하라즈",
+            "name":"4X 아르간 컬링 에센스",
+            "thumb":"./imgs/package/thumb_SRcurling.jpg",
+            "detail":"./imgs/package/de_SRcurling.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 단품케이스(box)",
+            "view":"브랜드의 아이덴티티인 라벨 하단 꼬리 탭에 브랜드명을 배치하는 레이아웃을 중심으로 가독성 높은 미니멀 타이포그래피를 전개하여, 아르간 오일의 풍부한 영양감을 감각적이고 완성도 높게 표현했습니다."
+        },
+        {
+            "id":64,
+            "brand":"하라즈",
+            "name":"노워시 단백질 앰플 트리트먼트 2종",
+            "thumb":"./imgs/package/thumb_SRnowash.jpg",
+            "detail":"./imgs/package/de_SRnowash.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 단품케이스(box)",
             "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
         },
         {
-            "id":9,
-            "brand":"홀리데이즈",
-            "name":"링곤베리 퓨레 글루타치온 로즈힙",
-            "thumb":"./imgs/web/thumb_Hringo.png",
-            "detail":"./imgs/package/de_Nlemon.png",
-            "text":"기획ㅣ제품촬영/보정ㅣ상세디자인",
+            "id":65,
+            "brand":"하라즈",
+            "name":"아르간 오일 세럼 3종",
+            "thumb":"./imgs/package/thumb_SRoil.jpg",
+            "detail":"./imgs/package/de_SRoil.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 단품케이스(box)",
             "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":66,
+            "brand":"하라즈",
+            "name":"퍼퓸 바디 워시 & 로션 5종",
+            "thumb":"./imgs/package/thumb_SRperfume.jpg",
+            "detail":"./imgs/package/de_SRperfume.jpg",
+            "text":"제품디자인ㅣ스티커라벨",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":67,
+            "brand":"하라즈",
+            "name":"다시마 바디워시 & 샴푸 2종",
+            "thumb":"./imgs/package/thumb_SRsea.jpg",
+            "detail":"./imgs/package/de_SRsea.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 단품케이스(box)",
+            "view":"<span>컬러가 곧 맛과 경험이 되다.</span> 단순히 정보를 전달하는 패키지를 넘어, 컬러의 시각적 에너지를 극대화하여 콤부차의 건강함과 레몬의 상큼함을 직관적으로 연결하는 데 중점을 두었습니다."
+        },
+        {
+            "id":91,
+            "brand":"에스폴리오",
+            "name":"체리 립케어 3종",
+            "thumb":"./imgs/package/thumb_s_cherrylip.jpg",
+            "detail":"./imgs/package/de_s_cherrylip.jpg",
+            "text":"제품디자인ㅣ인쇄용기, 스티커라벨, 튜브, 세트케이스(pet)",
+            "view":"<span>시각적 달콤함이 선사하는 고보습 립 케어 루틴.</span> 상큼한 체리 일러스트와 강렬한 레드 컬러를 모티브로 활용하여 3-Step 케어의 즐거움을 감각적인 그래픽으로 디자인하는 데 집중했습니다."
+        },
+        {
+            "id":92,
+            "brand":"에스폴리오",
+            "name":"깨끗한피부 그린티 클렌징 티슈",
+            "thumb":"./imgs/package/thumb_s_cleansingtissue.jpg",
+            "detail":"./imgs/package/de_s_cleansingtissue.jpg",
+            "text":"제품디자인ㅣ파우치, 스티커라벨",
+            "view":"<span>시각적 달콤함이 선사하는 고보습 립 케어 루틴.</span>상큼한 체리 일러스트와 강렬한 레드 컬러를 모티브로 활용하여 3-Step 케어의 즐거움을 감각적인 그래픽으로 디자인하는 데 집중했습니다."
+        },
+        {
+            "id":93,
+            "brand":"에스폴리오",
+            "name":"깨끗한피부 칙칙 뿌리는 때밀이",
+            "thumb":"./imgs/package/thumb_s_peelingmist.jpg",
+            "detail":"./imgs/package/de_s_peelingmist.jpg",
+            "text":"제품디자인ㅣ스티커라벨, 세트케이스(pet)",
+            "view":"<span>시각적 달콤함이 선사하는 고보습 립 케어 루틴.</span>상큼한 체리 일러스트와 강렬한 레드 컬러를 모티브로 활용하여 3-Step 케어의 즐거움을 감각적인 그래픽으로 디자인하는 데 집중했습니다."
+        },
+        {
+            "id":94,
+            "brand":"에스폴리오",
+            "name":"후르츠 5종 폼클렌져 & 핸드크림",
+            "thumb":"./imgs/package/thumb_s_fruit5ea.jpg",
+            "detail":"./imgs/package/de_s_fruit5ea.jpg",
+            "text":"제품디자인ㅣ튜브, 번들케이스(box)",
+            "view":"<span>시각적 달콤함이 선사하는 고보습 립 케어 루틴.</span>상큼한 체리 일러스트와 강렬한 레드 컬러를 모티브로 활용하여 3-Step 케어의 즐거움을 감각적인 그래픽으로 디자인하는 데 집중했습니다."
+        },
+        {
+            "id":95,
+            "brand":"에스폴리오",
+            "name":"러블리 펭귄 베이비 워시 & 로션 ",
+            "thumb":"./imgs/package/thumb_s_baby.jpg",
+            "detail":"./imgs/package/de_s_baby.jpg",
+            "text":"제품디자인ㅣ수축필름, 단품케이스(box)",
+            "view":"<span>시각적 달콤함이 선사하는 고보습 립 케어 루틴.</span>상큼한 체리 일러스트와 강렬한 레드 컬러를 모티브로 활용하여 3-Step 케어의 즐거움을 감각적인 그래픽으로 디자인하는 데 집중했습니다."
         }
     ],
     "bannerData": [
