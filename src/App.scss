@@ -73,12 +73,13 @@ body {
                         background-color:#CADD9B; 
                         a{color: green;} 
                 }
-                &.active li:nth-of-type(6){transition-delay: 0.1s;}
-                &.active li:nth-of-type(5){transition-delay: 0.2s;}
-                &.active li:nth-of-type(4){transition-delay: 0.3s;}
-                &.active li:nth-of-type(3){transition-delay: 0.4s;}
-                &.active li:nth-of-type(2){transition-delay: 0.5s;}
-                &.active li:nth-of-type(1){transition-delay: 0.6s;}
+                &.active li:nth-of-type(7){transition-delay: 0.1s;}
+                &.active li:nth-of-type(6){transition-delay: 0.2s;}
+                &.active li:nth-of-type(5){transition-delay: 0.3s;}
+                &.active li:nth-of-type(4){transition-delay: 0.4s;}
+                &.active li:nth-of-type(3){transition-delay: 0.5s;}
+                &.active li:nth-of-type(2){transition-delay: 0.6s;}
+                &.active li:nth-of-type(1){transition-delay: 0.7s;}
 
                 &:not(.active) li:nth-of-type(1){transition-delay: 0.1s;}
                 &:not(.active) li:nth-of-type(2){transition-delay: 0.2s;}
@@ -86,6 +87,7 @@ body {
                 &:not(.active) li:nth-of-type(4){transition-delay: 0.4s;}
                 &:not(.active) li:nth-of-type(5){transition-delay: 0.5s;}
                 &:not(.active) li:nth-of-type(6){transition-delay: 0.6s;}
+                &:not(.active) li:nth-of-type(7){transition-delay: 0.7s;}
 
             } // nav
         } // menu
@@ -255,13 +257,14 @@ body {
                     text-align: left;
                     padding: 2%;
                     border-radius: 20px;
-                    width: 20%;
+                    width: 18%;
                     aspect-ratio: 1 / 1;
                     color: white;
                     &:nth-child(1){background-color: lightpink;}
                     &:nth-child(2){background-color: rgb(255, 230, 125);}
                     &:nth-child(3){background-color: rgb(160, 225, 155);}
                     &:nth-child(4){background-color: lightskyblue;}
+                    &:nth-child(5){background-color: plum; }
                     &:hover{opacity: 0.5; transition: 0s;}
                 }
             }
@@ -556,7 +559,7 @@ body {
     }
 }
 
-.package, .web, .etc{
+.package, .web, .etc, .ui{
     width: 70vw;
     padding-top: 3vw;
     margin: 0 auto;
@@ -590,8 +593,9 @@ body {
     transition: 1s ;
     &:nth-child(1){ transform: translateX(150%); }
     &:nth-child(2){ transform: translateX(50%); }
-    &:nth-child(3){ transform: translateX(-50%); }
-    &:nth-child(4){ transform: translateX(-150%); }
+    &:nth-child(3){ transform: translateX(0%); }
+    &:nth-child(4){ transform: translateX(-50%); }
+    &:nth-child(5){ transform: translateX(-150%); }
 
 }
 .designs.ani.active a{transform: translateX(0);}

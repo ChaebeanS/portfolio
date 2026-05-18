@@ -8,6 +8,7 @@ import About from './pages/About';
 import Package from './pages/Package';
 import Web from './pages/Web';
 import Etc from './pages/Etc';
+import Photo from './pages/Photo';
 import Ui from './pages/Ui';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/package" element={<Package />} />
           <Route path="/web" element={<Web />} />
           <Route path="/etc" element={<Etc />} />
+          <Route path="/photo" element={<Photo />} />
           <Route path="/ui" element={<Ui />} />
         </Routes>
         <Footer />

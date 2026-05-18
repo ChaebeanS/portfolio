@@ -73,7 +73,11 @@
         .designs{
             width: 90vw;
             margin-top: 0 !important;
-            div a{ font-size: 4vw;  width: 23%; }
+            div a{ 
+                font-size: 3vw;
+                border-radius: 15px;  
+                width: 18%; 
+            }
         }
     } // home
 
@@ -141,7 +145,7 @@
     } 
 }
 
-.package, .web, .etc{ width: 85vw; }
+.package, .web, .etc, .ui{ width: 85vw; }
 
 
 // mason 1. package

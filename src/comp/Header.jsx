@@ -40,6 +40,7 @@ function Header() {
           <li><Link to="/package">Package</Link></li>
           <li><Link to="/web">Web</Link></li>
           <li><Link to="/etc">etc</Link></li>
+          <li><Link to="/photo">Photo</Link></li>
           <li><Link to="/ui">UI/UX</Link></li>
         </ul>
 

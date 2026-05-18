@@ -141,6 +141,7 @@ function Home() {
             <Link to="/package">Package<br />design</Link>
             <Link to="/web">Web<br />design</Link>
             <Link to="/etc">etc<br />design</Link>
+            <Link to="/photo">Photo<br />graphy</Link>
             <Link to="/ui">UI/UX<br />design</Link>
           </div>
         </section>
