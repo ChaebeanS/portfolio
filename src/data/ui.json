@@ -11,6 +11,15 @@
     },
     {
       "id": "2",
+      "title": "TRIPLOG",
+      "detail": "나만의 올인원 여행 플래너 플랫폼",
+      "img": "./imgs/ui/thumb_trip.jpg",
+      "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣBananaㅣGithub",
+      "role": "<span>팀프로젝트</span> 기획ㅣ공통 탬플릿 및 UI/UXㅣ인트로ㅣ체크리스트",
+      "link": "https://tl-test-d37y.vercel.app/"      
+    },
+    {
+      "id": "3",
       "title": "STUDIO BEAN",
       "detail": "포트폴리오",
       "img": "./imgs/ui/thumb_port.jpg",
@@ -27,6 +36,11 @@
     },
     {
       "id":"2",
+      "title": "TRIPLOG",
+      "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스"
+    },
+    {
+      "id":"3",
       "title": "STUDIO BEAN",
       "detail": "포트폴리오"
     }

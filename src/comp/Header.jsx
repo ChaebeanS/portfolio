@@ -6,9 +6,13 @@ function Header() {
   const [isShow, setShow] = useState(false);
 
   const location = useLocation(); 
+  
+  
 
+  console.log(isHovered);
   useEffect(() => {
-    setIsHovered(false);
+    setIsHovered(false)
+   
     
     const handleScroll = () => {
       if(location.pathname === '/') {
@@ -27,14 +31,15 @@ function Header() {
   return (
     <article className='header'>
       { isShow &&
-      <div className="menu"
+      <div className={`menu ${isHovered ? "active" : ""}`}
+          onClick={() => setIsHovered(true)}
           onMouseEnter={() => setIsHovered(true)} 
           onMouseLeave={() => setIsHovered(false)}
         >
         <img src="./imgs/main/bean.svg" alt="bean" />
 
         
-        <ul className={`nav ${isHovered ? "active" : ""}`}>
+        <ul className={`nav `}>
           <li><Link to="/">Main</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/package">Package</Link></li>

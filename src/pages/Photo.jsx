@@ -51,7 +51,7 @@ export default function Photo() {
       <article className='etc'>
         <div className='con-title'>
           <p className='title'>Photo graphy</p>
-          <p>브랜드의 가치를 다양한 매체에 최적화된 비주얼 콘텐츠로 전달합니다</p>
+          <p>연출된 한 컷으로 제품의 매력을 증명하고 소비자의 시선을 사로잡습니다</p>
         </div>
         <div className='contents'>
           <div className="etc-grid" ref={gridRef}>

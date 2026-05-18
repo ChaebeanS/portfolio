@@ -12,6 +12,7 @@ import Photo from './pages/Photo';
 import Ui from './pages/Ui';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <div className="App">

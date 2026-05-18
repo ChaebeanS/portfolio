@@ -30,10 +30,27 @@ body {
             width: 80px;
             padding: 10px;
             border-radius: 15px;
-            &:hover{
+
+            &.active{
                 background-color: #CADD9B;
                 border-radius: 100%;
                 transition: 0.5s;
+                .nav{
+                    pointer-events: auto; 
+                     li{opacity: 1; transform: translateY(0);}
+                     li:hover{
+                            transition-delay: 0s !important;
+                            background-color:#CADD9B; 
+                            a{color: green;} 
+                    }
+                     li:nth-of-type(7){transition-delay: 0.1s;}
+                     li:nth-of-type(6){transition-delay: 0.2s;}
+                     li:nth-of-type(5){transition-delay: 0.3s;}
+                     li:nth-of-type(4){transition-delay: 0.4s;}
+                     li:nth-of-type(3){transition-delay: 0.5s;}
+                     li:nth-of-type(2){transition-delay: 0.6s;}
+                     li:nth-of-type(1){transition-delay: 0.7s;}                    
+                }
             }
             .nav{
                 position: absolute; 
@@ -43,7 +60,6 @@ body {
                 z-index: 999;
 
                 pointer-events: none; 
-                &.active { pointer-events: auto; }  
 
                 li{
                     background-color: #ffffff42;
@@ -55,8 +71,7 @@ body {
                     opacity: 0;
                     transform: translateY(20px);
                     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.8),
-                                opacity 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.8);
-                                
+                                opacity 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.8);                                
                     
                     a{
                         color: black;
@@ -65,31 +80,15 @@ body {
                         text-align: center;                         
                     }
                 } // li
-
-                // li효과
-                &.active li{opacity: 1; transform: translateY(0);}
-                &.active li:hover{
-                        transition-delay: 0s !important;
-                        background-color:#CADD9B; 
-                        a{color: green;} 
-                }
-                &.active li:nth-of-type(7){transition-delay: 0.1s;}
-                &.active li:nth-of-type(6){transition-delay: 0.2s;}
-                &.active li:nth-of-type(5){transition-delay: 0.3s;}
-                &.active li:nth-of-type(4){transition-delay: 0.4s;}
-                &.active li:nth-of-type(3){transition-delay: 0.5s;}
-                &.active li:nth-of-type(2){transition-delay: 0.6s;}
-                &.active li:nth-of-type(1){transition-delay: 0.7s;}
-
-                &:not(.active) li:nth-of-type(1){transition-delay: 0.1s;}
-                &:not(.active) li:nth-of-type(2){transition-delay: 0.2s;}
-                &:not(.active) li:nth-of-type(3){transition-delay: 0.3s;}
-                &:not(.active) li:nth-of-type(4){transition-delay: 0.4s;}
-                &:not(.active) li:nth-of-type(5){transition-delay: 0.5s;}
-                &:not(.active) li:nth-of-type(6){transition-delay: 0.6s;}
-                &:not(.active) li:nth-of-type(7){transition-delay: 0.7s;}
-
             } // nav
+
+            &:not(.active) li:nth-of-type(1){transition-delay: 0.1s;}
+            &:not(.active) li:nth-of-type(2){transition-delay: 0.2s;}
+            &:not(.active) li:nth-of-type(3){transition-delay: 0.3s;}
+            &:not(.active) li:nth-of-type(4){transition-delay: 0.4s;}
+            &:not(.active) li:nth-of-type(5){transition-delay: 0.5s;}
+            &:not(.active) li:nth-of-type(6){transition-delay: 0.6s;}
+            &:not(.active) li:nth-of-type(7){transition-delay: 0.7s;}
         } // menu
     } // header    
 
@@ -464,9 +463,9 @@ body {
             display: flex;
             justify-content: right;
             align-items: center;
-            h3 { color: #4FB365;}           
+            h3{ color: #4FB365;}           
             .text{text-align: right; padding-right: 1.5%;}
-            .qr img {height: 90px; padding-top: 5px; }
+            .qr img{height: 90px; padding-top: 5px; }
         }
         .copyright{
             width: 80vw;
