@@ -45,7 +45,7 @@ function Ui() {
                 </div>
                 <div className="tool">
                   <p dangerouslySetInnerHTML={{ __html: item.role }} />
-                  {item.tool}
+                  {item.stack}
                 </div>
               </div>
             </section>

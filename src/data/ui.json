@@ -2,41 +2,41 @@
   "thumb":[
     {
       "id": "1",
-      "title": "WEATHER MOOD",
-      "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스",
-      "img": "./imgs/ui/thumb_weather.jpg",
-      "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣBananaㅣGithub",
-      "role": "<span>팀프로젝트</span> 기획ㅣ캐릭터디자인ㅣ컨셉디자인",
-      "link": "https://chaebeans.github.io/Weather-Mood/index.html"      
-    },
-    {
-      "id": "2",
       "title": "TRIPLOG",
       "detail": "나만의 올인원 여행 플래너 플랫폼",
       "img": "./imgs/ui/thumb_trip.jpg",
-      "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣBananaㅣGithub",
-      "role": "<span>팀프로젝트</span> 기획ㅣ공통 탬플릿 및 UI/UXㅣ인트로ㅣ체크리스트",
-      "link": "https://tl-test-d37y.vercel.app/"      
+      "stack": "Next.jsㅣNextAuth.jsㅣReactㅣZustandㅣMongoDBㅣImgBBㅣVercel",
+      "role": "<span>팀프로젝트</span> 기획ㅣ공통 탬플릿 & UI/UXㅣ스플래시ㅣ체크리스트",
+      "link": "https://tl-test-d37y.vercel.app/"     
+    },
+    {
+      "id": "2",
+      "title": "WEATHER MOOD",
+      "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스",
+      "img": "./imgs/ui/thumb_weather.jpg",
+      "stack": "HTML5ㅣCSS3ㅣJavaScriptㅣSVG AnimationㅣSwiper.jsㅣOpenAPI",
+      "role": "<span>팀프로젝트</span> 기획ㅣ캐릭터 & 컨셉디자인ㅣ스플래시ㅣ오늘의무드",
+      "link": "https://chaebeans.github.io/Weather-Mood/index.html"      
     },
     {
       "id": "3",
       "title": "STUDIO BEAN",
       "detail": "포트폴리오",
       "img": "./imgs/ui/thumb_port.jpg",
-      "tool": "FigmaㅣVScodeㅣPsㅣAiㅣJsonㅣAPIㅣReactㅣGithub",
+      "stack": "ReactㅣSCSSㅣSwiperㅣMasonryㅣDraggabillyㅣTypeItㅣVercel",
       "role": "<span>개인프로젝트</span>",
-      "link": "/"      
+      "link": "/"       
     }
   ],
   "modal":[
     {
       "id":"1",
-      "title": "WEATHER MOOD",
-      "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스"
+      "title": "TRIPLOG",
+      "detail": "나만의 올인원 여행 플래너 플랫폼"
     },
     {
       "id":"2",
-      "title": "TRIPLOG",
+      "title": "WEATHER MOOD",
       "detail": "기상정보부터 날씨에 맞게 하루를 코디해주는 서비스"
     },
     {
