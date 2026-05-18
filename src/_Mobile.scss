@@ -74,10 +74,11 @@
             width: 90vw;
             margin-top: 0 !important;
             div a{ 
-                font-size: 3vw;
+                font-size: small;
                 border-radius: 15px;  
                 width: 18%; 
             }
+            .none{display: none;}
         }
     } // home
 
@@ -109,6 +110,7 @@
 
     .footer{
         .con, .copyright{ width: 90vw; } 
+        .copyright{ font-size: 2.8vw; }
     } 
 }
 

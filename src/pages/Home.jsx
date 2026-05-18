@@ -138,11 +138,11 @@ function Home() {
         </section>
         <section className='designs ani'>
           <div>
-            <Link to="/package">Package<br />design</Link>
-            <Link to="/web">Web<br />design</Link>
-            <Link to="/etc">etc<br />design</Link>
-            <Link to="/photo">Photo<br />graphy</Link>
-            <Link to="/ui">UI/UX<br />design</Link>
+            <Link to="/package">Package<p className='none'>design</p></Link>
+            <Link to="/web">Web<p className='none'>design</p></Link>
+            <Link to="/etc">etc<p className='none'>design</p></Link>
+            <Link to="/photo">Photo<p className='none'>graphy</p></Link>
+            <Link to="/ui">UI/UX<p className='none'>design</p></Link>
           </div>
         </section>
       </div>
